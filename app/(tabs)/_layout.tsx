@@ -1,33 +1,42 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
-
-import { HapticTab } from '@/components/haptic-tab';
-import { IconSymbol } from '@/components/ui/icon-symbol';
-import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
+import { Text } from 'react-native';
+import { HapticTab } from '../../components/haptic-tab';
+import { Icon } from 'react-native-paper';
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
-
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
+        tabBarActiveTintColor: '#3b82f6', // Trizen blue
         headerShown: false,
         tabBarButton: HapticTab,
       }}>
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          title: 'Tasks',
+          tabBarIcon: ({ color, size }) => (
+            <Icon source="format-list-checks" size={size || 24} color={color || '#3b82f6'} />
+          ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="add-task"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'Add Task',
+          tabBarIcon: ({ color, size }) => (
+            <Icon source="plus" size={size || 24} color={color || '#3b82f6'} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="completed"
+        options={{
+          title: 'Completed',
+          tabBarIcon: ({ color, size }) => (
+            <Icon source="check" size={size || 24} color={color || '#3b82f6'} />
+          ),
         }}
       />
     </Tabs>
