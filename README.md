@@ -4,6 +4,20 @@ A beautiful and feature-rich To-Do List mobile application built with React Nati
 
 ![Trizen Logo](./assets/headerLogo.png)
 
+## 📱 Download APK
+
+**📥 Ready to try the app? Download the APK directly:**
+
+🔗 **[Download Trizen Task Manager APK](https://expo.dev/accounts/praveenchintu/projects/task-manager/builds/fb02cdaf-7f2f-41a8-a0c3-cf572c2d62b6)**
+
+*Install directly on your Android device - no Play Store required!*
+
+## 📱 Screenshots
+
+> **📸 UI Screenshots Available:** Complete visual documentation of the app interface is available in the project directory under `/UI` folder after development completion. The screenshots showcase all features including dark/light themes, priority systems, and category management.
+
+---
+
 ## 🌟 Features Overview
 
 ### ✅ Core Features (Must-Have)
@@ -39,8 +53,6 @@ A beautiful and feature-rich To-Do List mobile application built with React Nati
 - **📐 Modular Architecture** - Well-organized, reusable components
 - **🔄 Cross-Platform** - Works perfectly on both Android and iOS
 - **💾 AsyncStorage** - Reliable local data persistence
-
-## 📱 Screenshots
 
 ### Main Interface
 - Task list with priority indicators and category filters
