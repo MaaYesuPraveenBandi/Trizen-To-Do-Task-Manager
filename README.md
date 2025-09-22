@@ -16,6 +16,41 @@ A beautiful and feature-rich To-Do List mobile application built with React Nati
 
 > **📸 UI Screenshots Available:** Complete visual documentation of the app interface is available in the project directory under `/UI` folder after development completion. The screenshots showcase all features including dark/light themes, priority systems, and category management.
 
+### 🌟 App Interface Showcase
+
+#### Dark Mode Interface
+![Dark Mode - Task List with Filters and Priority System](./UI/1.png)
+
+*Main task interface in dark mode showing filter options, priority levels, and the beautiful Trizen branding*
+
+#### Add New Task Screen (Dark Mode)
+![Add Task Screen - Dark Mode](./UI/2.png)
+
+*Task creation form with priority selection, category scrolling, and clean input fields*
+
+#### Completed Tasks Management
+![Completed Tasks Page](./UI/3.png)
+
+*Dedicated completed tasks view showing task completion status and organization*
+
+#### Light Mode Interface
+![Light Mode - Task List](./UI/4.png)
+
+*Main interface in light mode displaying multiple tasks with priority indicators and professional styling*
+
+#### Add Task Screen (Light Mode)
+![Add Task Screen - Light Mode](./UI/5.png)
+
+*Clean, bright interface for creating new tasks with all form elements visible*
+
+### ✨ Key Features Demonstrated:
+- **🌙 Dark/Light Theme Toggle** - Seamless theme switching with preserved functionality
+- **🎯 Priority System** - Color-coded priority levels (High-Red, Medium-Orange, Low-Blue)
+- **📂 Category Management** - Horizontal scrolling category selection
+- **🔍 Smart Filtering** - All/Pending/Completed filter options
+- **🏷️ Professional Branding** - Trizen logo and consistent design language
+- **📱 Responsive Design** - Clean, modern interface optimized for mobile
+
 ---
 
 ## 🌟 Features Overview
